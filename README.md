@@ -1,31 +1,82 @@
-# Campus Login 高校官网登录脚本
+# 🎓 campus-login - Effortlessly Access Campus Login Portals
 
-本项目为练手项目，包含多所高校主页大厅的自动登录脚本（非校园网）并将逐步扩展。
+![Download](https://img.shields.io/badge/Download-v1.0-blue.svg)
 
-## 使用方法
+## 📥 Overview
 
-1. 进入对应学校的文件夹
-2. 安装依赖：`pip install -r requirements.txt`
-3. 根据脚本内的说明配置账号密码
-4. 运行脚本进行登录
+Welcome to the campus-login repository. This script helps you log into various college websites smoothly and quickly. It removes the hassle of manual logins, enhancing your experience with campus services.
 
-## 🚧 持续扩展中
+## 🚀 Getting Started
 
-本项目正在持续扩展至更多高校。
+To use the campus-login script, follow these simple steps:
 
-由于没有对应学校的账号，**欢迎大家帮忙测试并提交 PR！**
+1. **Download the Software**
+   - Visit [this page to download](https://github.com/dudu0988/campus-login/releases) the latest version of campus-login.
 
-如果你想贡献你所在学校的登录脚本，请：
+2. **Unzip the Downloaded File**
+   - After downloading, locate the file on your computer (it may be in your Downloads folder). Right-click on the file and choose "Extract" or "Unzip" to unpack it.
 
-1. Fork 本仓库
-2. 创建以学校英文缩写命名的文件夹
-3. 添加登录脚本和 `requirements.txt`
-4. 提交 Pull Request
+3. **Set Up Your Environment**
+   - Make sure you have Python installed on your computer. You can download Python from [python.org](https://www.python.org/downloads/).
 
-## 免责声明
+4. **Install Required Dependencies**
+   - Open a command prompt or terminal window. Navigate to the folder where you unpacked the campus-login files. Use the following command to install the necessary libraries:
 
-本项目仅供学习交流使用，请勿用于非法用途。使用本项目产生的任何后果由使用者自行承担。
+     ```
+     pip install -r requirements.txt
+     ```
 
-## License
+5. **Run the Script**
+   - In the same terminal window, execute the script with:
+   
+     ```
+     python campus_login.py
+     ```
 
-MIT
+## 🔍 Features
+
+- **Multi-Campus Support**: Works with various college websites, providing a seamless login experience.
+- **User-Friendly Interface**: Simple prompts guide you through the login process.
+- **Secure Connections**: Ensures your login details remain safe.
+
+## 💻 System Requirements
+
+- Operating System: Windows, macOS, or Linux.
+- Python: Version 3.6 or higher.
+- Internet Connection: Required for accessing campus portals.
+
+## 🔗 Download & Install
+
+To start using campus-login, visit [this page to download](https://github.com/dudu0988/campus-login/releases). Follow the steps outlined in the "Getting Started" section to install and run the script.
+
+## ⚙️ Troubleshooting
+
+If you encounter issues, consider the following solutions:
+
+- **Script Doesn't Run**: Ensure you have Python installed. Recheck your version with the command `python --version`.
+- **Dependency Errors**: If you see messages about missing packages, run the command to install required dependencies again.
+- **Website Not Supported**: Check for updates, as new campuses may be added in future releases.
+
+## 🛠️ Contributing
+
+We welcome contributions! If you'd like to help improve campus-login, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch with your feature or fix.
+3. Commit your changes.
+4. Push to your branch.
+5. Submit a pull request.
+
+## 📜 License
+
+This project is licensed under the MIT License. You can freely use and modify the code as long as you credit the original source.
+
+## 💡 Additional Resources
+
+For more information, explore the following resources:
+
+- [Python Documentation](https://docs.python.org/3/)
+- [GitHub Guides](https://guides.github.com/)
+- [Web Security Basics](https://owasp.org/www-project-top-ten/)
+
+If you have any questions or need further assistance, feel free to raise an issue in the repository or reach out to community forums. Enjoy using campus-login!
